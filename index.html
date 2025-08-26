@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adam & Lena — Pozivnica</title>
+  <meta name="description" content="Vjenčana pozivnica — Adam & Lena — 27.7.2027 u Palma Cathedral, 18:00" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="section hero">
+    <div class="hero-inner">
+      <p class="tiny reveal">we are getting married</p>
+      <h1 class="couple reveal">
+        <span>Adam</span>
+        <span class="amp">&amp;</span>
+        <span>Lena</span>
+      </h1>
+      <figure class="photo-frame reveal">
+        <img src="assets/img/hero.jpg" alt="Adam i Lena u kafiću" />
+      </figure>
+      <p class="date reveal">27.7.2027.</p>
+      <div class="divider reveal" aria-hidden="true">
+        <svg viewBox="0 0 200 30" width="200" height="30">
+          <path d="M5 20 C40 5, 60 25, 95 15 S155 5,195 20" fill="none" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M100 22c5-6 10-6 15 0" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        </svg>
+      </div>
+      <p class="tagline reveal">our forever begins here</p>
+      <a class="scroll-down" href="#ceremony" aria-label="Scroll to details">↓</a>
+    </div>
+  </header>
+
+  <!-- Ceremony -->
+  <section id="ceremony" class="section">
+    <h2 class="script reveal">CEREMONY</h2>
+    <p class="sub reveal">– palma cathedral –</p>
+    <p class="sub reveal">plaça de la seu</p>
+    <p class="sub reveal">6:00 pm</p>
+
+    <a class="btn reveal"
+       href="https://maps.google.com/?q=Palma%20Cathedral%20Pla%C3%A7a%20de%20la%20Seu"
+       target="_blank" rel="noopener">Pogledaj na mapama</a>
+
+    <figure class="photo-frame wide reveal">
+      <img src="assets/img/cathedral.jpg" alt="Unutrašnjost katedrale" />
+      <figcaption>Klik na gumb vodi na Maps</figcaption>
+    </figure>
+  </section>
+
+  <!-- Dress code -->
+  <section class="section">
+    <h2 class="script reveal">DRESS&nbsp;CODE</h2>
+    <p class="sub reveal">– formal –</p>
+    <p class="note reveal">
+      Bijela je rezervirana za mladenku, voljeli bismo vas vidjeti u drugim bojama! ✨
+    </p>
+    <div class="divider reveal" aria-hidden="true">
+      <svg viewBox="0 0 200 30" width="200" height="30">
+        <path d="M5 20 C40 5, 60 25, 95 15 S155 5,195 20" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        <path d="M100 22c5-6 10-6 15 0" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section class="section">
+    <h2 class="script reveal">ATTENDANCE</h2>
+    <p class="sub reveal">– hoćeš li nam se pridružiti? –</p>
+
+    <!-- PROMIJENI link na svoj Google Form ili WhatsApp -->
+    <a class="btn primary reveal"
+       href="https://forms.gle/your-google-form-id"
+       target="_blank" rel="noopener">Potvrdi dolazak</a>
+
+    <p class="mini reveal">klik za potvrdu</p>
+  </section>
+
+  <!-- Countdown — zadnja sekcija -->
+  <section class="section end">
+    <h2 class="script reveal">SEE YOU IN</h2>
+
+    <div id="countdown" class="countdown reveal" aria-live="polite">
+      <div><span id="cd-days">—</span><small>days</small></div>
+      <div><span id="cd-hours">—</span><small>hours</small></div>
+      <div><span id="cd-minutes">—</span><small>minutes</small></div>
+      <div><span id="cd-seconds">—</span><small>seconds</small></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
